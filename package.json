@@ -1,0 +1,17 @@
+{
+  "name": "ama-oficina-virtual-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "API de negocio DUMMY para el prototipo de la Oficina Virtual de A.M.A. (datos ficticios).",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch main.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  }
+}
