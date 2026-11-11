@@ -5,8 +5,8 @@
   "type": "module",
   "description": "API de negocio DUMMY para el prototipo de la Oficina Virtual de A.M.A. (datos ficticios).",
   "scripts": {
-    "start": "node main.js",
-    "dev": "node --watch main.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "engines": { "node": ">=20" },
   "dependencies": {
